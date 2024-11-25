@@ -1,0 +1,58 @@
+Introduction to MERN Stack : 
+
+M MongoDB - document database - aligned with javascript 
+E ExpressJS - Node.js web framework
+R ReactJS - A client-side javascript framework
+N NodeJs - The premier Javascript web server
+
+-----------------
+ Now we'll create our own api and configure it with our own database.
+
+with the help of express.js (node js web framework) we will write our backend api 
+ : npm install express --save
+
+backend will be maintained separately
+and the reactjs application will be handled separately -> the reactjs frontend will use the api backend to retreive data 
+
+nodemodules will be separate for both 
+
+--- 
+Installations:
+express.js -> npm install express --save
+mongoDB -> installed in computer for development, and when the application will be live it will be installed in the server as well ideally
+
+---
+mongoDB is a document database
+we can randomly throw javascript object in the mongoDB database
+- collections concept 
+- database concept
+ ---------
+ what is mongoose ?
+ Mongoose is an abstraction layer on top of mongoDB which helps us connect to our nodejs application
+
+ ---
+ database -> contains collections -> contains documents
+
+
+ ---
+ we can directly make the database collections and documents, which will be very tedious
+ so we have the mongoose models for creating the MongoDB database
+
+---
+we will make our own api and our own database and store the data in our database. and then start building our application.
+----------------
+
+- we will make our own api -> npx create-react-app inotebook -> notebook on the cloud -> login authentication 
+- we need to create our own api using express server.
+-> frontend portion and api portion will be seperately made. => react application + api (nodejs project)
+
+-> because our api (backend) will be hit and requested to give responses more often than our frontend react application which is uploaded only once on the browser when accessed. => so we want our backend api to be on another separate server which is stronger(more bandwidth).
+
+-> login and signup and how to deal the security.
+
+-> we can create this as a social media application using websockets - because the concepts are same.
+
+
+----
+hello everyone
+in this video we are going to look at the concept of searching in Data-structures and algorithms, primarily we will focus on binary search and some special cases and like floor and ceil values and we will solve some questions on Leetcode.
