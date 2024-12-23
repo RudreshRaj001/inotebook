@@ -1,7 +1,6 @@
 // Connecting to database 
 const mongoose = require("mongoose");
-const mongoURI = "mongodb://localhost:27017/"; // connection
-
+const mongoURI = "mongodb://localhost:27017/inotebook"; // connection
 
 
 // Mongoose manages the database for us
